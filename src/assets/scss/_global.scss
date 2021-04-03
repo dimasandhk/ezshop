@@ -1,0 +1,32 @@
+$main: #ff7048;
+
+#app {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+svg {
+  color: rgb(214, 214, 87);
+}
+
+.onFocus {
+  border-color: $main !important;
+}
+
+.btn-primary {
+  &:focus {
+    @extend .onFocus;
+  }
+}
+
+input {
+  &:focus {
+    @extend .onFocus;
+  }
+}
+
+select {
+  &:focus {
+    @extend .onFocus;
+  }
+}
