@@ -7,5 +7,5 @@ npm run build
 cd dist
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:Dimas-Ngoding/ezshop.git master:gh-pages
+git push -f git@github.com:Dimas-Ngoding/ezshop.git main:gh-pages
 cd -
