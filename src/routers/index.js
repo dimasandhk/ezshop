@@ -4,7 +4,6 @@ import Categories from "../views/Categories.vue";
 import Search from "../views/Search.vue";
 import Login from "../views/Login.vue";
 import Signup from "../views/Signup.vue";
-import NotFound from "../views/404.vue";
 
 const routes = [
   {
@@ -31,11 +30,6 @@ const routes = [
     path: "/signup",
     name: "Signup",
     component: Signup,
-  },
-  {
-    path: "/:catchAll(.*)",
-    name: "Not Found",
-    component: NotFound,
   },
 ];
 
