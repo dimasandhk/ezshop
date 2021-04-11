@@ -1,5 +1,7 @@
 # EzShop
 
+You can see the on Production Environments <a>https://ezshop.vercel.app/</a>
+
 ## Project setup
 
 ```
